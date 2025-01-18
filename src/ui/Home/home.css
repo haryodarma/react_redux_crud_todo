@@ -1,0 +1,68 @@
+.container {
+  background-color: #252525;
+  padding: 25px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 350px;
+}
+
+input[type="text"] {
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+  padding: 3px 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  height: 30px;
+  border-radius: 10px;
+  padding: 0px 15px;
+  background-color: orange;
+  border: none;
+  color: white;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-button {
+  display: flex;
+  gap: 5px;
+}
+
+.todo-button button {
+  background-color: #fff;
+  border: none;
+}
+
+.todo-button button:nth-child(1):hover {
+  background-color: greenyellow;
+  scale: 1.2;
+  transition: 300ms;
+}
+.todo-button button:nth-child(2):hover {
+  background-color: red;
+  scale: 1.2;
+  transition: 300ms;
+}
